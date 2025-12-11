@@ -45,7 +45,7 @@ export default function Page() {
   <div className="max-w-3xl my-14">
     <div className="heading-box w-full h-2 bg-black mb-4"></div>
 
-    <h2 className="text-2xl font-bold mb-4">
+    <h2 className="text-2xl font-bold text-center mb-4">
       One of the first few animals to have a great decline in population due to
       deforestation is the Sumatra Orangutan.
     </h2>
@@ -62,7 +62,7 @@ export default function Page() {
 
 
 
-    <div className="mt-6 space-y-4 text-xl">
+    <div className="mt-6 space-y-4 text-center text-xl">
 
       <div>
         <strong>No.1:</strong> Set up more sanctuaries, wildlife centres, and orphanages
@@ -98,7 +98,7 @@ export default function Page() {
  <a href="#" className="img-link">
         <img
           id="polar-img"
-          src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..."
+          src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." //pls replace with the actual link
           width={500}
           height={500}
           alt="Polar Bear"
@@ -107,7 +107,8 @@ export default function Page() {
 
       <h3 id="polar-heading">Next up is the polar bear.</h3>
 
-      <p id="polar-text">
+      <p id="polar-text text-lg text-center leading-7">
+
         The polar bear is a large bear native to the Arctic. According to Wikipedia, the polar bear
         is the largest extant species of bear, with adult males weighing 300–800 kg. Currently, they
         are listed as "Vulnerable" due to melting ice and declining hunting conditions. Several
@@ -146,27 +147,35 @@ export default function Page() {
 
     </div>
 
-    <h4 id="amur-heading">Thirdly, the Amur Leopard</h4>
+    <h4 id="amur-heading text-lg text-center leading-7">
+      Thirdly, the Amur Leopard</h4>
 
-    <p id="amur-text">
+    <p id="amur-text text-lg text-center leading-7">
         The Amur leopard is a critically endangered subspecies with fewer than 100 individuals remaining.
         Threats include habitat loss, poaching, and prey depletion. Conservation efforts include anti-poaching
         patrols, habitat restoration, and captive breeding programs.
     </p>
 
-    <div class="tip" id="amur-tip1">
+    <div class="tip text-lg text-center leading-7" id="amur-tip1">
         No.1: Support conservation groups like WWF and ALTA.
     </div>
 
-    <div class="tip" id="amur-tip2">
+    <div class="tip text-lg text-center leading-7"  id="amur-tip2">
         No.2: Raise awareness by sharing information and educating others.
     </div>
 
-    <div class="tip" id="amur-tip3">
+    <div class="tip text-lg text-center leading-7"  id="amur-tip3">
         No.3: Advocate for stronger anti-poaching laws and conservation funding.
-    </div>
-
-
-</div>
+    </div> //IDK HOW YOURE GONNA DO THIS BUT IM OUT OF TIME. GD LUCK. FOLLOW THE ABOVE STRUCTURE TO DO FOR THE OTHER POINTS. 
+    //if u want to make the thing have animations cos idk how yall want it to be, put it in animation properties for the object
+//I COMMENTED IT OUT ALREADY
+  //for the other place i commented out, "type customisations here", it's kinda like, where u scroll=something happen. some customisations r  enter: "80% 20%",
+  // leave: "50px -25px",
+ //  sync: 0.25, 
+//pls try to figure stuff out
+//pls dont glitch the github
+//pls dont cause a merge conflict
+//gd luck
+ </div>
   );
 }
